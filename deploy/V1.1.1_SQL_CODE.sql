@@ -1,4 +1,4 @@
-create or replace table emp(   
+create or replace table mohan.practice.emp(   
   empno    number(4,0),   
   ename    varchar2(10),   
   job      varchar2(9),   
@@ -9,4 +9,4 @@ create or replace table emp(
   deptno   number(2,0)
 );
 
-create or replace table mohan (id number);
+create or replace table mohan.practice.mohan (id number);
